@@ -21,6 +21,10 @@ This next image shows the work in progress to mock-up the production website usi
 
 Add the "CURRENT AND PAST SOLICITATION" feature including a moch-up of the detail page.
 
+Work in progress...
+<img width="1246" alt="image" src="https://github.com/steveLeVesconte/port-of-seattle-demo/assets/4312647/92ccd29e-7a7f-4500-b7d8-57c87f99c983">
+
+
 - - -
 ### The following is the auto-generated Readme info created by the Angular CLI.
 
