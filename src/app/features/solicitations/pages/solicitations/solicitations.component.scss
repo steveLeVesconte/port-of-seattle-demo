@@ -1,0 +1,55 @@
+.pos-card {
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  position: relative;
+  padding: 16px;
+  border-radius: 4px;
+}
+.mat-mdc-card-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .mat-mdc-card p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color:  rgba(0, 0, 0, 0.87);
+}
+
+.pos-form-field:hover{
+    border-width: 3.5px !important;
+}
+
+
+
+
+.mat-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
+}
+
+.close-icon {
+    font-size: 100%;
+    line-height: 1.50;
+}
+
+.search-icon {
+    font-size: 130%;
+    line-height: 1.50;
+    margin-right: 20px;
+}
+
+
+.mat-card-subtitle{
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.nav-root  {
+    color: #666;
+    text-transform: uppercase;
+    font-size: medium;
+    display: block;
+    position: relative;
+    top: -0.8em;
+}
+.nav-root a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-root a:hover {
+    color: #044257;
+    text-decoration: underline;
+}
