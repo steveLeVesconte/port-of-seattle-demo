@@ -9,11 +9,21 @@
     font-size: 24px;
     font-weight: 500;
   }
+
   .mat-mdc-card p{
     margin-top: 16px;
     margin-bottom: 16px;
     color:  rgba(0, 0, 0, 0.87);
 }
+
+.filters{
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+}
+
+
 
 .pos-form-field:hover{
     border-width: 3.5px !important;
@@ -40,7 +50,6 @@
     line-height: 1.50;
     margin-right: 20px;
 }
-
 
 .mat-card-subtitle{
     margin-bottom: 16px;
