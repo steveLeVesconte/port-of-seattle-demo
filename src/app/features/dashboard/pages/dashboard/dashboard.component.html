@@ -1,0 +1,40 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title
+      >Welcome to the Port of Seattle VendorConnect</mat-card-title
+    >
+  </mat-card-header>
+  <mat-card-content class="pos-card-content">
+    <p>
+      Port of Seattle VendorConnect provides procurement and contract
+      information for construction, consulting, and goods and services. This is
+      also the one stop location for registering to be on the following rosters:
+      small works (construction less than $300,000), consulting services, and
+      goods and services.
+    </p>
+
+    <p>
+      To begin, you must register yourself and then find or add your business.
+      If you were in our old system, and this is your first time logging in you
+      must recreate your login account. To do this, click the “REGISTER/LOGIN”
+      button below, then the “Sign up now” link on the login screen.
+    </p>
+    <div class="pos-register-button-row">
+      <button (click)="goToSolicitations()" mat-raised-button>
+        REGISTER/LOGIN
+      </button>
+    </div>
+    <p>
+      You may search our solicitations, vendors, and view the event calendar as
+      a guest.
+    </p>
+    <div class="pos-button-row">
+      <button (click)="goToSolicitations()" mat-raised-button>
+        CURRENT AND PAST SOLICITATIONS
+      </button>
+      <button mat-raised-button>FUTURE SOLICITATIONS</button>
+      <button mat-raised-button>SEARCH PUBLICLY VIEWABLE VENDORS</button>
+      <button mat-raised-button>VIEW EVENT CALENDAR</button>
+    </div>
+  </mat-card-content>
+</mat-card>
