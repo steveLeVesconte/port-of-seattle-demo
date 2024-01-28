@@ -5,13 +5,14 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
+import { PeopleListComponent } from "../../components/people-list/people-list.component";
 
 @Component({
-  selector: 'app-solicitations',
-  standalone: true,
-  imports: [MatCardModule,MatButtonModule,BreadcrumbsComponent, MatFormFieldModule, MatIconModule, MatInputModule],
-  templateUrl: './solicitations.component.html',
-  styleUrl: './solicitations.component.scss'
+    selector: 'app-solicitations',
+    standalone: true,
+    templateUrl: './solicitations.component.html',
+    styleUrl: './solicitations.component.scss',
+    imports: [MatCardModule, MatButtonModule, BreadcrumbsComponent, MatFormFieldModule, MatIconModule, MatInputModule, PeopleListComponent]
 })
 export class SolicitationsComponent {
 
