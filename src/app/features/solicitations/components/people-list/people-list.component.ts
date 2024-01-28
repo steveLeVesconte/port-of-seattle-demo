@@ -20,8 +20,6 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './people-list.component.scss'
 })
 export class PeopleListComponent {
-
-
   public nameFilter = new FormControl('');
   columnsToDisplay = ['userName', 'age'];
   displayedColumns: string[] = ['user-name', 'name', 'favorite-feature','address', 'gender'];
@@ -32,7 +30,6 @@ export class PeopleListComponent {
     switchMap(name => this.peopleService.getPeople(name ?? ''))
   );
 
-  
   constructor(private peopleService: PeopleService) { }
 
 ngOnInit(){
