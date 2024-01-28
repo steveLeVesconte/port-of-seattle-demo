@@ -37,6 +37,12 @@ This application also demonstrates the new "stand alone" component architecture 
 
 <img width="781" alt="image" src="https://github.com/steveLeVesconte/port-of-seattle-demo/assets/4312647/e37c2afd-0883-4ab6-add5-e8ff5560ab46">
 
+One feature where the real website severely out-shines the mock-up is responsiveness to small form factors.  Below is real website responding to a Samsung Galaxy 22 Ultra form factor.
+The mock-up website does not achieve anything like this excellent responsiveness.  I suspect this feature is part of the Kendo UI grid package.
+
+
+<img width="339" alt="image" src="https://github.com/steveLeVesconte/port-of-seattle-demo/assets/4312647/5f25010f-f334-42b8-bc4a-292005e8ed66">
+
 
 
 - - -
