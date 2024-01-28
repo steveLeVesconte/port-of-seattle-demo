@@ -11,6 +11,10 @@ export enum Feature {
     Feature4 = "Feature4"
 }
 
+export interface Location {
+    Address: string | null;
+}
+
 export interface Person {
 
     UserName: string;
@@ -39,5 +43,5 @@ export interface Person {
 
     BestFriend?: Person | null;
 
-   // Trips?: Array<Trip>;
+    // Trips?: Array<Trip>;
 }

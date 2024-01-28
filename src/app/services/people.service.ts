@@ -18,7 +18,6 @@ export class PeopleService {
     @Inject(TRIPPIN_BASE_URL) private baseUrl: string
   ) { }
 
-
   public getPeople(nameFilter?: string): Observable<ODataResponse<Person>> {
     let params = new HttpParams();
     if (nameFilter) {
@@ -27,7 +26,7 @@ export class PeopleService {
         `contains(FirstName, '${nameFilter}') or contains(LastName, '${nameFilter}') or (MiddleName ne null and contains(MiddleName, '${nameFilter}'))`
       );
     }
-    params = params.set('$select', 'UserName,FirstName,MiddleName,LastName,Age');
+    // params = params.set('$select', 'UserName,FirstName,MiddleName,LastName, Age, FavoriteFeature, Gender, HomeAddress');
     params = params.set('$orderby', 'LastName,FirstName');
 
     return this.httpClient

@@ -1,0 +1,32 @@
+.pos-mat-chip {
+  background-color: rgb(93, 153, 187);
+  color: white;
+  padding: 10px;
+  width: unset;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.pos-gender-button {
+  border-radius: 16px;
+  border: 0px;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.pos-gender-button-Male {
+  background-color: rgb(119, 162, 47);
+}
+
+.pos-gender-button-Female {
+  background-color: rgb(129, 129, 129);
+}
+
+.filters {
+  max-width: 1600px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}

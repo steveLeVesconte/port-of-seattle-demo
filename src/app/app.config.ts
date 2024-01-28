@@ -7,7 +7,6 @@ import { provideHttpClient } from '@angular/common/http';
 
 export const TRIPPIN_BASE_URL = new InjectionToken<string>('TRIPPIN_BASE_URL');
 
-
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes), provideAnimations(),
     {

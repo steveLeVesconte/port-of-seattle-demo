@@ -9,52 +9,5 @@
     A list of Future and Open solicitations with the Port of Seattle. Use the
     filter to search all solicitations.
   </mat-card-subtitle>
-
-  <div class="filters">
-    <mat-form-field appearance="outline" class="pos-form-field">
-      <mat-label>Search Selection</mat-label>
-      <input matInput placeholder="Placeholder" />
-      <span matTextPrefix><mat-icon class="search-icon">search</mat-icon></span>
-      <span matTextSuffix
-        ><button mat-icon-button>
-          <mat-icon class="close-icon">close</mat-icon>
-        </button></span
-      >
-    </mat-form-field>
-
-    <mat-form-field class="select-form-field">
-      <select matNativeControl required>
-        <option value="">Select Status...</option>
-        <option value="open">Open</option>
-        <option value="future">Future</option>
-        <option value="evaluation">Evaluation</option>
-        <option value="pending-award">Pending Award</option>
-        <option value="executed">Executed</option>
-        <option value="closed">Closed</option>
-        <option value="canceled">Canceled</option>
-      </select>
-    </mat-form-field>
-    <mat-form-field>
-      <select matNativeControl required>
-        <option value="">Select Status...</option>
-        <option value="open">Open</option>
-        <option value="future">Future</option>
-        <option value="evaluation">Evaluation</option>
-        <option value="pending-award">Pending Award</option>
-        <option value="executed">Executed</option>
-        <option value="closed">Closed</option>
-        <option value="canceled">Canceled</option>
-      </select>
-    </mat-form-field>
-    <mat-form-field class="example-full-width">
-      <input matInput placeholder="Work Type Tag" value="" />
-    </mat-form-field>
-    <mat-form-field class="example-full-width">
-      <input matInput placeholder="NAICS Code" value="" />
-    </mat-form-field>
-
-    <button mat-raised-button> <mat-icon class="close-icon">close</mat-icon> HIDE FILTER</button>
-    <button mat-raised-button>EXPORT TO EXCEL</button>
-  </div>
   <pos-people-list></pos-people-list>
 </mat-card>
