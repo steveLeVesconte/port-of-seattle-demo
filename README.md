@@ -33,6 +33,9 @@ The real Port of Seattle website uses Kendo UI (a 3rd party library) for the tab
 <img width="1170" alt="image" src="https://github.com/steveLeVesconte/port-of-seattle-demo/assets/4312647/c70b417d-3855-4fb5-8963-705408486cb6">
 
 
+This application also demonstrates the new "stand alone" component architecture of Angular 15+.  Look Ma, no modules!!!!!
+
+<img width="781" alt="image" src="https://github.com/steveLeVesconte/port-of-seattle-demo/assets/4312647/e37c2afd-0883-4ab6-add5-e8ff5560ab46">
 
 
 
