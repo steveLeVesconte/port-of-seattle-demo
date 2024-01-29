@@ -5,7 +5,7 @@
 
 The purpose of the project is to exercise Angular 17 and Material Design skills on a "real world" problem (not related to the problems found in tutorials or textbooks (remember textbooks?) )
 
-The project has been employed only such knowledge as can be deduced from the public facing web application operated by the Port of Seattle especially the information that can be detected using Chrome DevTools to view html tag and css and to view network traffic to and from the Odata API used by the Port of Seattle website.   
+The project has employed only such information as can be deduced from the public facing web application operated by the Port of Seattle, especially the information that can be detected using Chrome DevTools to view html elements and css and to view network traffic.   
 
 The image below shows the real production website as of 1/26/2024.
 
