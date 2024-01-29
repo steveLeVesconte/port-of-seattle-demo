@@ -3,9 +3,9 @@
 
 ### A Mockup or Simulation of Port of Seattle VendorConnect
 
-The purpose of the project is to exercise Angular 17 and Material Design skills on a "real world" problem (not related to the problems found in tutorials or textbooks (remember textbooks?) )
+The purpose of the project is to exercise Angular 17 and Material Design skills on a "real world" problem (not related to the problems found in tutorials or textbooks (remember textbooks?) )  In addition, this project is a way of both doing research about a possible new employer, Port Of Seattle, and demonstrating a clear interest in the organization far above the "just click the link" application.  Through this project I have been able to see flawless execution in providing information to the public about "Solicitations".  And while I cannot claim to understand the contract bidding process (RFP?) that seems to be supported here, I can comment on the technical excellence in the presentation of the Web Application.
 
-The project has been employed only such knowledge as can be deduced from the public facing web application operated by the Port of Seattle especially the information that can be detected using Chrome DevTools to view html tag and css and to view network traffic to and from the Odata API used by the Port of Seattle website.   
+This project has employed only such information as can be deduced from the public facing web application operated by the Port of Seattle, especially the information that can be detected using Chrome DevTools to view html elements and css and to view network traffic.   
 
 The image below shows the real production website as of 1/26/2024.
 
