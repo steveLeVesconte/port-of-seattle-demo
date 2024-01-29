@@ -25,9 +25,87 @@
 }
 
 .filters {
-  max-width: 1600px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  grid-template-columns: 1fr 212px;
+  grid-template-areas: "filter1 filter2 filter3 filter4 filter5 btn1 btn2";
 
-  gap: 16px;
+  column-gap: 16px;
+  grid-auto-flow: row;
+}
+
+@media (max-width: 1499px) {
+  .filters {
+    grid-template-areas:
+      "filter1 filter2 filter3 filter4 filter5"
+      "spacer spacer spacer btn1 btn2  ";
+    margin-bottom: 16px;
+  }
+  .btn2 {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 1165px) {
+  .filters {
+    grid-template-columns: 238px 212px 212px 212px;
+    grid-template-areas:
+      "filter1 filter2 filter3"
+      "filter4 filter5 spacer"
+      "btn1 btn2 spacer";
+  }
+}
+
+@media (max-width: 700px) {
+  .filters {
+    grid-template-columns: 238px 212px;
+    grid-template-areas:
+      "filter1 filter2 "
+      "filter3 filter4 "
+      "filter5 spacer"
+      "btn1 btn2";
+  }
+}
+
+@media (max-width: 575px) {
+  .filters {
+    grid-template-columns: 238px;
+    grid-template-areas:
+      "filter1 "
+      "filter2 "
+      "filter3 "
+      "filter4  "
+      "filter5 "
+      "btn1"
+      "btn2";
+  }
+  .btn1 {
+    margin-bottom: 20px;
+  }
+}
+
+.filter1 {
+  grid-area: filter1;
+  margin-right: auto;
+}
+.filter2 {
+  grid-area: filter2;
+}
+.filter3 {
+  grid-area: filter3;
+}
+.filter4 {
+  grid-area: filter4;
+}
+.filter5 {
+  grid-area: filter5;
+}
+.btn1 {
+  grid-area: btn1;
+}
+.btn2 {
+  grid-area: btn2;
+}
+
+.pos-search-form-field {
+  width: 238px;
 }
